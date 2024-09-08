@@ -11,8 +11,8 @@ def addition():
 
 def subtraction():
     st.header("Subtraction")
-    num1 = st.number_input("Enter the first number:", value=0.0, key="sub_num1")
-    num2 = st.number_input("Enter the second number:", value=0.0, key="sub_num2")
+    num1 = st.number_input("Enter the first number:", value=0, key="sub_num1")
+    num2 = st.number_input("Enter the second number:", value=0, key="sub_num2")
     
     if st.button("Subtract", key="sub_button"):
         result = num1 - num2
